@@ -1,0 +1,7 @@
+Mô tả:
+Chúng tôi phát hiện một file thực thi khả nghi, nhưng nó rõ ràng đã bị hỏng và không chạy được. File có dấu hiệu đã bị can thiệp. Bạn có thể khôi phục file không? Flag sẽ có được khi bạn chạy file thực thi đã khôi phục (không kèm tham số nào).
+File: corrupted.exe
+
+Chi tiết:
+Ghi chú:
+Định dạng flag: XHM{string}

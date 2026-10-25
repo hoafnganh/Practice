@@ -1,0 +1,2 @@
+Bạn có được một file ảnh. Nó trông như một JPEG bình thường, nhưng dường như có gì đó đang bị giấu bên trong.
+Hãy phân tích file và trích xuất flag ẩn.

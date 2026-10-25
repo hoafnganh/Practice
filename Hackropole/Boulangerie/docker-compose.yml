@@ -1,0 +1,5 @@
+services:
+  boulangerie:
+    image: anssi/cte2025-crypto-boulangerie:latest
+    ports:
+      - '4000:4000'

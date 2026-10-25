@@ -1,0 +1,7 @@
+Mô tả:
+Truyền thông và truyền dữ liệu thời kỳ đầu dùng hệ thống điện báo: tín hiệu điện chạy trên dây. Người gửi dùng chìa khóa điện báo để ngắt dòng điện, phía đầu thu sẽ giải mã. Có nhiều hệ thống mã dùng trong điện báo, nổi tiếng nhất là mã Morse.
+
+Chi tiết:
+Một lão kỹ sư máy tính từ thời chiến tranh lạnh chỉ để lại đúng một file text. Nó khiến chúng tôi bối rối vì chỉ chứa một câu và vài ký tự ngẫu nhiên. Bạn giúp chúng tôi tìm ra bí mật của ông ấy nhé! Và vì chúng tôi tốt bụng, tặng luôn một gợi ý miễn phí: flag sẽ có dạng XHM{LOOK.SOMETHING.LIKE.THIS}
+
+Hãy giải mã thông điệp để tìm flag.

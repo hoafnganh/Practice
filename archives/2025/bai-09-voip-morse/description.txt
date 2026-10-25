@@ -1,0 +1,11 @@
+Mô tả:
+Một cuộc gọi VoIP đã bị ghi lại, nhưng có gì đó dường như… bất thường. Phần signaling nhìn bình thường, cuộc gọi ngắn và không có gì đáng chú ý. Tuy nhiên, thông điệp thật có thể không nằm trong các header SIP hay metadata của cuộc gọi. Nhiệm vụ của bạn là đào sâu vào luồng media và tìm xem thực sự có gì đang được truyền đi.
+
+Chi tiết:
+- Bạn được cung cấp một file bắt gói chứa một phiên VoIP.
+- Cuộc gọi dùng giao thức chuẩn, nhưng payload có thể mang nhiều hơn chỉ "giọng nói".
+- Phân tích cẩn thận các luồng signaling và media. Nhận diện codec, trích xuất âm thanh, và hãy lắng nghe thật kỹ.
+- Câu trả lời bạn cần nằm ngay trong âm thanh — giải mã nó để lấy flag.
+
+Ghi chú:
+Định dạng flag: XHM{thông điệp bạn tìm thấy}

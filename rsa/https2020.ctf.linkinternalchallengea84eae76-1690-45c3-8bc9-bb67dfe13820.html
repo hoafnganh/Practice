@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Challenges</title>
+	<meta name="description" content="hxp CTF 2020">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="/assets/css/themes/bootstrap-2020.min.css">
+	<link rel="stylesheet" href="/assets/css/chartist.min.css">
+	<link rel="stylesheet" href="/assets/css/themes/2020.css">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#14213d">
+	<meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png?E_i9U7F7JUI">
+	<meta name="theme-color" content="#14213d">
+</head>
+<body>
+	<div class="container border-0" id="main_container">
+
+		<nav class="navbar navbar-expand-lg sticky-top navbar-light" id="hxp-navbar">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+
+					
+						<li class="nav-item"><a class="nav-link" href="/internal/">Challenges</a></li>
+					
+
+					<li class="nav-item"><a class="nav-link" href="/public/scoreboard/">Scoreboard</a></li>
+
+					
+						
+						
+					
+
+				</ul>
+				
+					<form style="display:none;">
+						<input type="hidden" name="_csrf" value="txmAgl0qODULKgQFalm8xI8d0xc9Eh69">
+						<button type="submit" class="btn btn-hxp-red">Logout</button>
+					</form>
+				
+			</div>
+		</nav>
+
+		<div class="container" id="container_content">
+			<div class="row justify-content-md-center">
+				<div class="col center">
+					<h1>
+						<img src="/assets/img/hxp-logo-2020.png" width="350" height="164" class="img-fluid" alt="hxp CTF 2020">
+					</h1>
+					<h2 class="text-secondary glitch" data-text="#YOLO">2020</h2>
+					<p class="advertisement">Das Premium-CTF für Hackademiker und Singles mit Niveau!</p>
+				</div>
+			</div>
+
+			<noscript>
+				<div class="row">
+					<div class="col post">
+						<p class="alert alert-danger center">JavaScript is disabled in your browser. To play hxp CTF 2020 please enable JavaScript.</p>
+					</div>
+				</div>
+			</noscript>
+
+			<div class="row">
+				<div class="col">
+					<p class="alert alert-primary center" id="timer" data-start-time="2020-12-18T15:00:00Z" data-end-time="2020-12-20T15:00:00Z" data-year="2020" data-title="hxp CTF 2020">The CTF is over, thanks for playing! hxp &lt;3 you! 😊<br>This is a static mirror, we try to keep files online, but all services will be down. <br>If you want to hack the services, please check out the <a href="https://ctf.link/hxp_ctf_2020.ova">hxp CTF 2020 VM</a> (<a href="https://ctf.link/hxp_ctf_2020.ova.torrent">Torrent</a>).<br>
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<p class="alert alert-info center" id="newsbox">
+						Join us on IRC! <a href="https://kiwiirc.com/client/irc.freenode.net/?nick=h4x0r%7C?&theme=cli#hxpctf">freenode | #hxpctf</a> - Stalk us on Twitter <a href="https://twitter.com/hxpctf">@hxpctf</a> <br>
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					
+					
+
+					
+<div class="container">
+	<div class="row d-flex justify-content-center">
+		
+			<div class="col-md-2">
+				<div class="row p-1">
+					<img alt="crypto" title="crypto" class="mx-auto d-block" style="max-width: 85px" src="/assets/img/icons/icon_crypto.png">
+				</div>
+
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/5cbca392-d235-4652-a865-8bd2eaba8039/">nanothorpe</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="crypto" title="crypto" src="/assets/img/icons/icon_crypto.png">
+										
+											<img width="30" alt="baby" title="baby" src="/assets/img/icons/icon_baby.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="easy" title="easy" src="/assets/img/icons/level_easy.svg"> | 82 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/54170135-8a32-4cd1-866d-11911ddce8ec/">hyper</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="crypto" title="crypto" src="/assets/img/icons/icon_crypto.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="easy" title="easy" src="/assets/img/icons/level_easy.svg"> | 25 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/399a4db7-b38f-4dba-b750-36b88d14a666/">minithorpe</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="crypto" title="crypto" src="/assets/img/icons/icon_crypto.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 15 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/61bc2d00-38a3-483d-afa9-df6a9363cad6/">hyperhyper</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="crypto" title="crypto" src="/assets/img/icons/icon_crypto.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="hard" title="hard" src="/assets/img/icons/level_hard.svg"> | 5 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/fab65a63-e35e-454d-bb79-6d83a0a35e2e/">octothorpe</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="crypto" title="crypto" src="/assets/img/icons/icon_crypto.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="hard" title="hard" src="/assets/img/icons/level_hard.svg"> | 5 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+
+			</div>
+		
+			<div class="col-md-2">
+				<div class="row p-1">
+					<img alt="misc" title="misc" class="mx-auto d-block" style="max-width: 85px" src="/assets/img/icons/icon_misc.png">
+				</div>
+
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/842dbfd7-7e95-448d-9301-6322970a8af0/">anwesenheitspflicht</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="misc" title="misc" src="/assets/img/icons/icon_misc.png">
+										
+											<img width="30" alt="baby" title="baby" src="/assets/img/icons/icon_baby.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="easy" title="easy" src="/assets/img/icons/level_easy.svg"> | 526 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/7e09f315-2f7b-4f0a-bcaf-934cc298e263/">Find the chicken</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="misc" title="misc" src="/assets/img/icons/icon_misc.png">
+										
+											<img width="30" alt="rev" title="rev" src="/assets/img/icons/icon_rev.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="easy" title="easy" src="/assets/img/icons/level_easy.svg"> | 24 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/554b41b4-65db-410a-b657-4b52bd4e024b/">nemoji</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="misc" title="misc" src="/assets/img/icons/icon_misc.png">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+											<img width="30" alt="baby" title="baby" src="/assets/img/icons/icon_baby.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="easy" title="easy" src="/assets/img/icons/level_easy.svg"> | 13 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+
+			</div>
+		
+			<div class="col-md-2">
+				<div class="row p-1">
+					<img alt="pwn" title="pwn" class="mx-auto d-block" style="max-width: 85px" src="/assets/img/icons/icon_pwn.png">
+				</div>
+
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/38f9f055-e281-4e1b-b748-66e3d080578d/">audited</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 29 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/12f1e6af-fd8e-4fde-bd5f-a2cc511f870a/">pfoten</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 18 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/87d18022-a0e7-4eea-a52b-bb3ba6192a7a/">still-printf</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 16 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/0b64807d-3f0b-40b9-8264-da5e51e1cf5c/">kernel-rop</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 6 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/c1d9414c-0c20-4e4a-9dd9-7f07f18a9597/">stegernseer</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 0 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+
+			</div>
+		
+			<div class="col-md-2">
+				<div class="row p-1">
+					<img alt="rev" title="rev" class="mx-auto d-block" style="max-width: 85px" src="/assets/img/icons/icon_rev.png">
+				</div>
+
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/1730b0f7-2f7a-437d-9b32-fd80b2aa894f/">EXCELlent</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="rev" title="rev" src="/assets/img/icons/icon_rev.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 58 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/edb2b1a8-d5c4-49e3-b28e-c937f23e45a1/">·&lt;</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="rev" title="rev" src="/assets/img/icons/icon_rev.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 15 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/5e577a0e-057f-406f-965b-5f8d559183f0/">nobranch7e4</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="rev" title="rev" src="/assets/img/icons/icon_rev.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 6 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/cc501bd7-2474-48a2-8e45-64622c2dd15d/">restless</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="rev" title="rev" src="/assets/img/icons/icon_rev.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="hard" title="hard" src="/assets/img/icons/level_hard.svg"> | 3 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+
+			</div>
+		
+			<div class="col-md-2">
+				<div class="row p-1">
+					<img alt="web" title="web" class="mx-auto d-block" style="max-width: 85px" src="/assets/img/icons/icon_web.png">
+				</div>
+
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/a84eae76-1690-45c3-8bc9-bb67dfe13820/">heiko</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="web" title="web" src="/assets/img/icons/icon_web.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="easy" title="easy" src="/assets/img/icons/level_easy.svg"> | 32 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/cb926472-66b2-4212-af86-b4aaf675d6ea/">resonator</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="web" title="web" src="/assets/img/icons/icon_web.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 17 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/5cd5e70e-a2fa-44df-82a1-3a16217c1893/">security scanner</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="web" title="web" src="/assets/img/icons/icon_web.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 2 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+
+			</div>
+		
+			<div class="col-md-2">
+				<div class="row p-1">
+					<img alt="zahjebischte" title="zahjebischte" class="mx-auto d-block" style="max-width: 85px" src="/assets/img/icons/icon_zahjebischte.png">
+				</div>
+
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/d0dcad14-20ad-4646-bd28-80398808a4e1/">Secure Program Config</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="zahjebischte" title="zahjebischte" src="/assets/img/icons/icon_zahjebischte.png">
+										
+											<img width="30" alt="rev" title="rev" src="/assets/img/icons/icon_rev.png">
+										
+											<img width="30" alt="baby" title="baby" src="/assets/img/icons/icon_baby.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="easy" title="easy" src="/assets/img/icons/level_easy.svg"> | 85 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/d400a07d-ac99-4bfb-ad2a-b6c044541897/">hackme</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="zahjebischte" title="zahjebischte" src="/assets/img/icons/icon_zahjebischte.png">
+										
+											<img width="30" alt="web" title="web" src="/assets/img/icons/icon_web.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="hard" title="hard" src="/assets/img/icons/level_hard.svg"> | 15 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/ec6ff458-2a5d-42e7-84f4-50190fa006a4/">fakeroot-gg</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="zahjebischte" title="zahjebischte" src="/assets/img/icons/icon_zahjebischte.png">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="hard" title="hard" src="/assets/img/icons/level_hard.svg"> | 8 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/5788ce33-23f5-41e6-a60e-f860e25143e3/">kuraberu</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="zahjebischte" title="zahjebischte" src="/assets/img/icons/icon_zahjebischte.png">
+										
+											<img width="30" alt="rev" title="rev" src="/assets/img/icons/icon_rev.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="medium" title="medium" src="/assets/img/icons/level_medium.svg"> | 7 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+				
+					<div class="row">
+						<div class="col overflow-hidden border m-1 chall-card " >
+							
+							<div class="row">
+								<div class="col pt-2 position-static" >
+									<p class="overflow-hidden" style="overflow-wrap: break-word; height:48px;"> 
+										<a class="stretched-link" href="/internal/challenge/377539b6-0b78-4b20-aae9-8b3302a98ebb/">wisdom2</a>
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate">
+										
+											<img width="30" alt="zahjebischte" title="zahjebischte" src="/assets/img/icons/icon_zahjebischte.png">
+										
+											<img width="30" alt="pwn" title="pwn" src="/assets/img/icons/icon_pwn.png">
+										
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p class="text-truncate"><img width="30" alt="hard" title="hard" src="/assets/img/icons/level_hard.svg"> | 1 solves</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				
+				
+
+			</div>
+		
+	</div>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row" id="footer">
+			<div class="col">
+				<p class="center">hxp CTF 2020 semi-proudly brought to you by <a href="https://hxp.io/">hxp</a> | Pls don't sue ☹️ | Pls many hacks</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalCenterTitle">New News</h5>
+				<button type="button" class="close modal-close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body" id="newNewsBody"></div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary modal-close">Close</button>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="/assets/js/vendor/jquery-3.5.1.slim.min.js"></script>
+	<script src="/assets/js/vendor/bootstrap.min.js"></script>
+	<script src="/assets/js/vendor/chartist.min.js"></script>
+	<script src="/assets/js/countdown.min.js"></script>
+	<script src="/assets/js/cookie.js"></script>
+	<script src="/assets/js/main.js"></script>
+</body>
+</html>

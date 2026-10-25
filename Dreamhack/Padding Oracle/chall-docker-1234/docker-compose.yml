@@ -1,0 +1,9 @@
+services:
+  chall:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: guestbook-chall
+    ports:
+      - "1234:80"
+    restart: unless-stopped

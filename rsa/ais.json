@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Baby ECDLP",
+    "path": "AIS3 EOF 2024/Baby ECDLP",
+    "sha": "b3a5a8299e20c12ab88e8536da7af9cdd5752f3f",
+    "size": 0,
+    "url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Baby%20ECDLP?ref=master",
+    "html_url": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Baby%20ECDLP",
+    "git_url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/b3a5a8299e20c12ab88e8536da7af9cdd5752f3f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Baby%20ECDLP?ref=master",
+      "git": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/b3a5a8299e20c12ab88e8536da7af9cdd5752f3f",
+      "html": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Baby%20ECDLP"
+    }
+  },
+  {
+    "name": "Baby Side Channel Attack",
+    "path": "AIS3 EOF 2024/Baby Side Channel Attack",
+    "sha": "6e62bbfe026e88c28286087fa8342070763257df",
+    "size": 0,
+    "url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Baby%20Side%20Channel%20Attack?ref=master",
+    "html_url": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Baby%20Side%20Channel%20Attack",
+    "git_url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/6e62bbfe026e88c28286087fa8342070763257df",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Baby%20Side%20Channel%20Attack?ref=master",
+      "git": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/6e62bbfe026e88c28286087fa8342070763257df",
+      "html": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Baby%20Side%20Channel%20Attack"
+    }
+  },
+  {
+    "name": "Baby XOR",
+    "path": "AIS3 EOF 2024/Baby XOR",
+    "sha": "84cbf86246d0d03dbc80de7e293607617a3dc25e",
+    "size": 0,
+    "url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Baby%20XOR?ref=master",
+    "html_url": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Baby%20XOR",
+    "git_url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/84cbf86246d0d03dbc80de7e293607617a3dc25e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Baby%20XOR?ref=master",
+      "git": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/84cbf86246d0d03dbc80de7e293607617a3dc25e",
+      "html": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Baby%20XOR"
+    }
+  },
+  {
+    "name": "Internal",
+    "path": "AIS3 EOF 2024/Internal",
+    "sha": "7f4706325d1e6969ef3cd11986f6d6efae4c76b6",
+    "size": 0,
+    "url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Internal?ref=master",
+    "html_url": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Internal",
+    "git_url": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/7f4706325d1e6969ef3cd11986f6d6efae4c76b6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/maple3142/My-CTF-Challenges/contents/AIS3%20EOF%202024/Internal?ref=master",
+      "git": "https://api.github.com/repos/maple3142/My-CTF-Challenges/git/trees/7f4706325d1e6969ef3cd11986f6d6efae4c76b6",
+      "html": "https://github.com/maple3142/My-CTF-Challenges/tree/master/AIS3%20EOF%202024/Internal"
+    }
+  }
+]

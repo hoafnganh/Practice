@@ -1,0 +1,19 @@
+Mô tả:
+Bạn là giáo viên khoa khoa học máy tính ở một trường đại học danh tiếng, và một sinh viên tên John đến gặp bạn với một bài toán hóc búa.
+
+Chi tiết:
+John đang gặp rắc rối. Cậu ấy mã hóa đồ án của mình bằng một password ngay trước buổi bảo vệ quan trọng. Không may là cậu đã quên mật khẩu và giờ không mở được đồ án.
+
+Hãy giúp John khôi phục password để cậu ấy truy cập lại đồ án.
+
+Ghi chú — John để lại vài ghi chú:
+
+ko : chuỗi 8 chữ số
+ka : 4 ký tự alphanumeric
+ko : 6 ký tự alphanumeric
+
+Thứ tự bảng chữ:
+0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+
+Định dạng flag:
+XHM{password}

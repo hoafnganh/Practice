@@ -1,0 +1,34 @@
+[
+  {
+    "name": "pow-pow",
+    "path": "dicectf-2022/pow-pow",
+    "sha": "34f23a4585694c1c5c9ad33eac996e9638a5f2ed",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-2022/pow-pow?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-2022/pow-pow",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/34f23a4585694c1c5c9ad33eac996e9638a5f2ed",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-2022/pow-pow?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/34f23a4585694c1c5c9ad33eac996e9638a5f2ed",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-2022/pow-pow"
+    }
+  },
+  {
+    "name": "psych",
+    "path": "dicectf-2022/psych",
+    "sha": "d32a9bdba1f33df07cdd089c3c3ae5fdc83ab18d",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-2022/psych?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-2022/psych",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/d32a9bdba1f33df07cdd089c3c3ae5fdc83ab18d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-2022/psych?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/d32a9bdba1f33df07cdd089c3c3ae5fdc83ab18d",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-2022/psych"
+    }
+  }
+]

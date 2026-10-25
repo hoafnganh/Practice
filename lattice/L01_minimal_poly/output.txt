@@ -1,0 +1,3 @@
+alpha = 5 + cbrt(19)
+alpha ≈ 7.668401648721
+degree(f) = 3, |a_i| < 1000

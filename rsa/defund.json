@@ -1,0 +1,274 @@
+[
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "cc77b67d09471fca27929e60ddf9b8d20988ef5e",
+    "size": 128,
+    "url": "https://api.github.com/repos/defund/ctf/contents/README.md?ref=master",
+    "html_url": "https://github.com/defund/ctf/blob/master/README.md",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/blobs/cc77b67d09471fca27929e60ddf9b8d20988ef5e",
+    "download_url": "https://raw.githubusercontent.com/defund/ctf/master/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/README.md?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/blobs/cc77b67d09471fca27929e60ddf9b8d20988ef5e",
+      "html": "https://github.com/defund/ctf/blob/master/README.md"
+    }
+  },
+  {
+    "name": "angstromctf-2016",
+    "path": "angstromctf-2016",
+    "sha": "81bd6ec502a19d81127f4c0a9f73754e101b3fac",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2016?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/angstromctf-2016",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/81bd6ec502a19d81127f4c0a9f73754e101b3fac",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2016?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/81bd6ec502a19d81127f4c0a9f73754e101b3fac",
+      "html": "https://github.com/defund/ctf/tree/master/angstromctf-2016"
+    }
+  },
+  {
+    "name": "angstromctf-2017",
+    "path": "angstromctf-2017",
+    "sha": "fc222f6dbaf59966315fd9aa050c6b303d481298",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2017?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/angstromctf-2017",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/fc222f6dbaf59966315fd9aa050c6b303d481298",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2017?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/fc222f6dbaf59966315fd9aa050c6b303d481298",
+      "html": "https://github.com/defund/ctf/tree/master/angstromctf-2017"
+    }
+  },
+  {
+    "name": "angstromctf-2018",
+    "path": "angstromctf-2018",
+    "sha": "4387a75fdedf0625b6ba65a0d6bfa403a246b06f",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2018?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/angstromctf-2018",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/4387a75fdedf0625b6ba65a0d6bfa403a246b06f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2018?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/4387a75fdedf0625b6ba65a0d6bfa403a246b06f",
+      "html": "https://github.com/defund/ctf/tree/master/angstromctf-2018"
+    }
+  },
+  {
+    "name": "angstromctf-2019",
+    "path": "angstromctf-2019",
+    "sha": "bcde3ad9acb529b6c357206ca748fb0dfe300d0d",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2019?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/angstromctf-2019",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/bcde3ad9acb529b6c357206ca748fb0dfe300d0d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2019?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/bcde3ad9acb529b6c357206ca748fb0dfe300d0d",
+      "html": "https://github.com/defund/ctf/tree/master/angstromctf-2019"
+    }
+  },
+  {
+    "name": "angstromctf-2023",
+    "path": "angstromctf-2023",
+    "sha": "3d0cf23797d2839529ef12003d65d013096553db",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2023?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/angstromctf-2023",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/3d0cf23797d2839529ef12003d65d013096553db",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2023?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/3d0cf23797d2839529ef12003d65d013096553db",
+      "html": "https://github.com/defund/ctf/tree/master/angstromctf-2023"
+    }
+  },
+  {
+    "name": "angstromctf-2024",
+    "path": "angstromctf-2024",
+    "sha": "1cf1200963ce815250b3be6be3f275311cc786c7",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2024?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/angstromctf-2024",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/1cf1200963ce815250b3be6be3f275311cc786c7",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/angstromctf-2024?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/1cf1200963ce815250b3be6be3f275311cc786c7",
+      "html": "https://github.com/defund/ctf/tree/master/angstromctf-2024"
+    }
+  },
+  {
+    "name": "cpvctf",
+    "path": "cpvctf",
+    "sha": "b1980738be9eeded69e471e5f539de1d955bcac6",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/cpvctf?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/cpvctf",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/b1980738be9eeded69e471e5f539de1d955bcac6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/cpvctf?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/b1980738be9eeded69e471e5f539de1d955bcac6",
+      "html": "https://github.com/defund/ctf/tree/master/cpvctf"
+    }
+  },
+  {
+    "name": "ctfx",
+    "path": "ctfx",
+    "sha": "e878c3c0b55ff842e5022d64f98092fcb97e9b5e",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/ctfx?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/ctfx",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/e878c3c0b55ff842e5022d64f98092fcb97e9b5e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/ctfx?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/e878c3c0b55ff842e5022d64f98092fcb97e9b5e",
+      "html": "https://github.com/defund/ctf/tree/master/ctfx"
+    }
+  },
+  {
+    "name": "dicectf-2021",
+    "path": "dicectf-2021",
+    "sha": "b041f8e4f7e8b2fafed9614f4797301b38caf7ba",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-2021?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-2021",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/b041f8e4f7e8b2fafed9614f4797301b38caf7ba",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-2021?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/b041f8e4f7e8b2fafed9614f4797301b38caf7ba",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-2021"
+    }
+  },
+  {
+    "name": "dicectf-2022",
+    "path": "dicectf-2022",
+    "sha": "79b37cac6014d125a4d45d78fe44348a45137650",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-2022?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-2022",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/79b37cac6014d125a4d45d78fe44348a45137650",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-2022?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/79b37cac6014d125a4d45d78fe44348a45137650",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-2022"
+    }
+  },
+  {
+    "name": "dicectf-2023",
+    "path": "dicectf-2023",
+    "sha": "722937ceaecafe9b558b0b46c2e0b34f661cfcf7",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-2023?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-2023",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/722937ceaecafe9b558b0b46c2e0b34f661cfcf7",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-2023?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/722937ceaecafe9b558b0b46c2e0b34f661cfcf7",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-2023"
+    }
+  },
+  {
+    "name": "dicectf-finals-2024",
+    "path": "dicectf-finals-2024",
+    "sha": "0a623ec0cceb23434c9be0841590773bfde5a6a6",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-finals-2024?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-finals-2024",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/0a623ec0cceb23434c9be0841590773bfde5a6a6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-finals-2024?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/0a623ec0cceb23434c9be0841590773bfde5a6a6",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-finals-2024"
+    }
+  },
+  {
+    "name": "dicectf-finals-2025",
+    "path": "dicectf-finals-2025",
+    "sha": "c190cd38f06874c1a9ebbaac14a985ae159adc01",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-finals-2025?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-finals-2025",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/c190cd38f06874c1a9ebbaac14a985ae159adc01",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-finals-2025?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/c190cd38f06874c1a9ebbaac14a985ae159adc01",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-finals-2025"
+    }
+  },
+  {
+    "name": "dicectf-quals-2024",
+    "path": "dicectf-quals-2024",
+    "sha": "601970a34111b8f456ad848eb303b35fe726c380",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-quals-2024?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-quals-2024",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/601970a34111b8f456ad848eb303b35fe726c380",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-quals-2024?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/601970a34111b8f456ad848eb303b35fe726c380",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-quals-2024"
+    }
+  },
+  {
+    "name": "dicectf-quals-2025",
+    "path": "dicectf-quals-2025",
+    "sha": "093e113d7d401d8034d3b641b597c0b5c9e5cbb0",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-quals-2025?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-quals-2025",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/093e113d7d401d8034d3b641b597c0b5c9e5cbb0",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-quals-2025?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/093e113d7d401d8034d3b641b597c0b5c9e5cbb0",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-quals-2025"
+    }
+  },
+  {
+    "name": "dicectf-quals-2026",
+    "path": "dicectf-quals-2026",
+    "sha": "be8475596daac58fa64e45814bcf42b00af6d3a0",
+    "size": 0,
+    "url": "https://api.github.com/repos/defund/ctf/contents/dicectf-quals-2026?ref=master",
+    "html_url": "https://github.com/defund/ctf/tree/master/dicectf-quals-2026",
+    "git_url": "https://api.github.com/repos/defund/ctf/git/trees/be8475596daac58fa64e45814bcf42b00af6d3a0",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/defund/ctf/contents/dicectf-quals-2026?ref=master",
+      "git": "https://api.github.com/repos/defund/ctf/git/trees/be8475596daac58fa64e45814bcf42b00af6d3a0",
+      "html": "https://github.com/defund/ctf/tree/master/dicectf-quals-2026"
+    }
+  }
+]

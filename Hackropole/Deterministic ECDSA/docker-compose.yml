@@ -1,0 +1,5 @@
+services:
+  deterministic_ecdsa:
+    image: anssi/fcsc2020-crypto-deterministic-ecdsa:latest
+    ports:
+      - "4000:4000"

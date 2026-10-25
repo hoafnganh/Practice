@@ -1,0 +1,11 @@
+Mô tả:
+Mật mã học — thường được mô tả là nghệ thuật và khoa học giữ thông tin an toàn — đạt được điều đó bằng cách biến dữ liệu thành dạng không đọc được nhờ các thuật toán và kỹ thuật toán học. Mục tiêu hàng đầu là bảo vệ thông tin nhạy cảm, đảm bảo tính bảo mật trong lưu trữ, truyền dẫn và truy cập. Vẻ đẹp của mật mã học nằm ở tính đa dụng: nó mã hóa được gần mọi loại dữ liệu, từ văn bản thuần, dữ liệu nhị phân cho tới hình ảnh, bằng vô số phương pháp khác nhau. Một trong những kỹ thuật được đánh giá cao và dùng phổ biến nhất là Advanced Encryption Standard (AES) — tin cậy nhờ độ an toàn vững và hiệu năng cao, giữ vai trò then chốt trong việc bảo vệ thông tin của thời đại số.
+
+Chi tiết:
+Giữa một đô thị nhộn nhịp, Alex — một nhà phân tích an ninh mạng xuất sắc tại một công ty lớn — tình cờ bắt gặp một file HTML kỳ lạ trong đợt rà soát an ninh định kỳ. File trông chỉ như một trang web bình thường, nhưng có gì đó khơi dậy sự tò mò của Alex.
+
+Ngày lại ngày, file HTML bí ẩn dần bộc lộ những bí mật của nó, lần lượt hé lộ một câu đố phức tạp được giấu kỹ trong mã nguồn. Mỗi lớp mã hóa được bóc ra, Alex càng đi sâu vào mê cung số, bị cuốn theo điều bí ẩn đang ẩn dưới đó. Alex chẳng thể ngờ rằng file HTML vô hại ấy sẽ mở ra một hành trình giải mã phiêu lưu, dẫn tới một thông điệp đầy mưu mô, nguy hiểm — và cuối cùng là một phát hiện có thể làm thay đổi cục diện an ninh mạng.
+
+Nhiệm vụ của bạn: cùng Alex giải mã đoạn mã bí ẩn đó và tìm ra thông điệp giấu bên trong, vì số phận của bí ẩn số này nằm trong tay bạn.
+
+Hãy thu thập và giải mã flag bằng cách phân tích file HTML.

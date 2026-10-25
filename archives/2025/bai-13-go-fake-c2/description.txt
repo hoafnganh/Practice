@@ -1,0 +1,2 @@
+Mô tả:
+File nhị phân này là bản mô phỏng đơn giản hóa của một implant giao tiếp với C2 server để thực thi các tác vụ tùy ý. Hãy phân tích file và trích xuất flag.

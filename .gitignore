@@ -1,0 +1,17 @@
+CyberDef/BYOVD-Hive0163.zip
+Hackropole/Hamac/rockyou.txt
+
+# vendored CTF-index files kept local (contain external CTF names)
+rsa/maple_readme.md
+rsa/maple.json
+rsa/pcw.json
+rsa/pcwr.md
+
+# local-only source folders (published as sanitized copies under archives/)
+/XHM 2015/
+/XHM 2021/
+/CyberSec2024/
+/CyberSec2025/
+/Test/Analyze the forgotten password/
+/Test/Decode the RFID Tag/
+/Test/Plato/

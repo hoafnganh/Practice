@@ -1,0 +1,12 @@
+Mô tả:
+Một cuộc tấn công được nghi là do người trong thực hiện đã bị phát hiện trên máy 192.168.56.104 trong mạng công ty. Theo kết quả điều tra sự cố, có khả năng thông tin xác thực đã bị rò rỉ từ máy 192.168.56.33.
+
+Nhiệm vụ của bạn: phân tích dữ liệu gói tin được cung cấp, nhận diện phương thức tấn công đã dùng, tìm ra thông tin xác thực có nguy cơ bị lộ, và vạch trần kẻ phản bội trong tổ chức.
+
+(link da bo)
+
+Mật khẩu giải nén: (da bo).
+
+Chi tiết:
+Định dạng flag như sau:
+XHM{<user_name>::<domain_name>:<16 ký tự alphanumeric>:<32 ký tự alphanumeric>:<620 ký tự alphanumeric>}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "anglerfish",
+    "path": "crypto/anglerfish",
+    "sha": "8d6812e99a907dabad0287fb370ce76493c03ff4",
+    "size": 0,
+    "url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/anglerfish?ref=master",
+    "html_url": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/anglerfish",
+    "git_url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/8d6812e99a907dabad0287fb370ce76493c03ff4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/anglerfish?ref=master",
+      "git": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/8d6812e99a907dabad0287fb370ce76493c03ff4",
+      "html": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/anglerfish"
+    }
+  },
+  {
+    "name": "exchange",
+    "path": "crypto/exchange",
+    "sha": "a1b1f9ff69ee0573ec42742f174d3ee17af44568",
+    "size": 0,
+    "url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/exchange?ref=master",
+    "html_url": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/exchange",
+    "git_url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/a1b1f9ff69ee0573ec42742f174d3ee17af44568",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/exchange?ref=master",
+      "git": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/a1b1f9ff69ee0573ec42742f174d3ee17af44568",
+      "html": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/exchange"
+    }
+  },
+  {
+    "name": "monkfish",
+    "path": "crypto/monkfish",
+    "sha": "94dd6f44a5122600cca71dbd5086e0dd716474e3",
+    "size": 0,
+    "url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/monkfish?ref=master",
+    "html_url": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/monkfish",
+    "git_url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/94dd6f44a5122600cca71dbd5086e0dd716474e3",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/monkfish?ref=master",
+      "git": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/94dd6f44a5122600cca71dbd5086e0dd716474e3",
+      "html": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/monkfish"
+    }
+  },
+  {
+    "name": "roots",
+    "path": "crypto/roots",
+    "sha": "0eacb0ebaef030449517be624662972fc60f0575",
+    "size": 0,
+    "url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/roots?ref=master",
+    "html_url": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/roots",
+    "git_url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/0eacb0ebaef030449517be624662972fc60f0575",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/roots?ref=master",
+      "git": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/0eacb0ebaef030449517be624662972fc60f0575",
+      "html": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/roots"
+    }
+  },
+  {
+    "name": "steps",
+    "path": "crypto/steps",
+    "sha": "14df9a2d17460f7d4785af75c447d8224943dd5e",
+    "size": 0,
+    "url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/steps?ref=master",
+    "html_url": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/steps",
+    "git_url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/14df9a2d17460f7d4785af75c447d8224943dd5e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/steps?ref=master",
+      "git": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/14df9a2d17460f7d4785af75c447d8224943dd5e",
+      "html": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/steps"
+    }
+  },
+  {
+    "name": "two-wrongs",
+    "path": "crypto/two-wrongs",
+    "sha": "aab861658c69db4f65d2eb3743042c8093de7f81",
+    "size": 0,
+    "url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/two-wrongs?ref=master",
+    "html_url": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/two-wrongs",
+    "git_url": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/aab861658c69db4f65d2eb3743042c8093de7f81",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/contents/crypto/two-wrongs?ref=master",
+      "git": "https://api.github.com/repos/Crusaders-of-Rust/corctf-2024-public-challenge-repo/git/trees/aab861658c69db4f65d2eb3743042c8093de7f81",
+      "html": "https://github.com/Crusaders-of-Rust/corctf-2024-public-challenge-repo/tree/master/crypto/two-wrongs"
+    }
+  }
+]

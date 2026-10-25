@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.log
+.git/
+.gitignore
+rand_key
+admin_pw
+salt

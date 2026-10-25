@@ -1,0 +1,3 @@
+# pycryptodome <= 3.16.0: Crypto.Util.number.inverse(u, v) trả 0 khi gcd(u,v) != 1
+# Từ 3.17: raise ValueError("No inverse value can be computed") → bypass (r,s)=(1,q) chết
+pycryptodome==3.16.0
